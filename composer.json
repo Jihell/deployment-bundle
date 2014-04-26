@@ -1,0 +1,13 @@
+{
+    "name": "jihel/plugin/deployment-bundle",
+    "license": "MIT",
+    "type": "project",
+    "description": "Deployment plugin for symfony2",
+    "autoload": {
+        "psr-4": { "Jihel\\Plugin\\": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "~2.4"
+    }
+}
