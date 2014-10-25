@@ -1,13 +1,20 @@
 {
-    "name": "jihel/plugin/deployment-bundle",
-    "license": "MIT",
-    "type": "project",
+    "name": "jihel/deployment-bundle",
     "description": "Deployment plugin for symfony2",
-    "autoload": {
-        "psr-4": { "Jihel\\Plugin\\": "src/" }
-    },
+    "authors": [
+        {
+            "name": "Joseph Lemoine",
+            "email": "lemoine.joseph@gmail.com"
+        }
+    ],
+    "license": "MIT",
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "~2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jihel\\Plugin\\DeploymentBundle\\": "src/"
+        }
     }
 }

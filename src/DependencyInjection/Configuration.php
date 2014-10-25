@@ -1,7 +1,6 @@
 <?php
 /**
- * @package Plugin
- * @author Joseph Lemoine <j.lemoine@gmail.com>
+ * @package deployment-bundle
  */
 namespace Jihel\Plugin\DeploymentBundle\DependencyInjection;
 
@@ -12,6 +11,7 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
  * Class Configuration
  *
  * @author Joseph Lemoine <j.lemoine@gmail.com>
+ * @link http://www.joseph-lemoine.fr
  */
 class Configuration implements ConfigurationInterface
 {

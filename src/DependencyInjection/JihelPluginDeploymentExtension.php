@@ -1,7 +1,6 @@
 <?php
 /**
- * @package Plugin
- * @author Joseph Lemoine <j.lemoine@gmail.com>
+ * @package deployment-bundle
  */
 namespace Jihel\Plugin\DeploymentBundle\DependencyInjection;
 
@@ -13,6 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  * Class JihelPluginDeploymentExtension
  * 
  * @author Joseph Lemoine <j.lemoine@gmail.com>
+ * @link http://www.joseph-lemoine.fr
  */
 class JihelPluginDeploymentExtension extends Extension
 {

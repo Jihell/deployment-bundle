@@ -1,7 +1,6 @@
 <?php
 /**
- * @package Plugin
- * @author Joseph Lemoine <j.lemoine@gmail.com>
+ * @package deployment-bundle
  */
 namespace Jihel\Plugin\DeploymentBundle\Command;
 
@@ -17,6 +16,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  * Provide easy deployment interface
  *
  * @author Joseph Lemoine <j.lemoine@gmail.com>
+ * @link http://www.joseph-lemoine.fr
  */
 class DeployCommand extends ContainerAwareCommand
 {
