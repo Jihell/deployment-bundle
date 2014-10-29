@@ -26,12 +26,12 @@ class DeployCommand extends ContainerAwareCommand
     protected function configure()
     {
         $this
-            ->setName('jihel:plugin:deploy')
+            ->setName('jihel:deploy')
             ->setDescription('Run deployment commands.')
             ->setHelp(<<<EOT
-The <info>jihel:plugin:upgrade</info> execute commands under the jihel_plugin_upgrade config.
+The <info>jihel:deploy</info> execute commands under the jihel_plugin_deploy config.
 
-This command must be used for platform upgrade.
+This command must be used for platform deployment.
 
 EOT
             );
