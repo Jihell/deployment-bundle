@@ -11,7 +11,7 @@ use Symfony\Component\DependencyInjection\Loader;
 /**
  * Class JihelPluginDeploymentExtension
  * 
- * @author Joseph Lemoine <j.lemoine@gmail.com>
+ * @author Joseph Lemoine <lemoine.joseph@gmail.com>
  * @link http://www.joseph-lemoine.fr
  */
 class JihelPluginDeploymentExtension extends Extension

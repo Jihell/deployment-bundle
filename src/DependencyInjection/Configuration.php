@@ -10,7 +10,7 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
 /**
  * Class Configuration
  *
- * @author Joseph Lemoine <j.lemoine@gmail.com>
+ * @author Joseph Lemoine <lemoine.joseph@gmail.com>
  * @link http://www.joseph-lemoine.fr
  */
 class Configuration implements ConfigurationInterface

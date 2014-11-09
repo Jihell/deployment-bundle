@@ -15,7 +15,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  *
  * Provide easy deployment interface
  *
- * @author Joseph Lemoine <j.lemoine@gmail.com>
+ * @author Joseph Lemoine <lemoine.joseph@gmail.com>
  * @link http://www.joseph-lemoine.fr
  */
 class DeployCommand extends ContainerAwareCommand
