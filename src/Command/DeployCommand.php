@@ -42,7 +42,7 @@ EOT
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $commands = $this->getContainer()->getParameter('lts.plugin.deployment.commands');
+        $commands = $this->getContainer()->getParameter('jihel.plugin.deployment.commands');
 
         if (count($commands)) {
             foreach ($commands as $command) {
